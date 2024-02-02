@@ -24,7 +24,6 @@ struct GroundSegmentationParams {
       long_threshold(2.0),
       max_long_height(0.1),   // 0.1
       max_start_height(0.2), // 0.2
-      // KITTI MulRan-1.75, gz_f1: 0.3, xt_f1: 0.0, garage: 0.3
       sensor_height(1.75), 
       line_search_angle(0.2) {}
 
