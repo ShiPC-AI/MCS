@@ -20,8 +20,7 @@ int main(int argc, char** argv) {
     // directory and path
     std::string dir_project = "../data/" + dataset + "/" + seq;
     std::string dir_map = dir_project + "/map/";
-    std::string dir_data = "/media/spcomen21/WD5T/Dataset/KITTI/";
-    std::string dir_pcd = dir_data + seq + "/pcd/";
+    std::string dir_pcd = dir_project + "/pcd/";
     std::cout << "Data name: " << dataset << ", " << seq << "\n";
 
     // parameter
