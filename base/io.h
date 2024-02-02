@@ -169,4 +169,4 @@ bool loadDynamicMatrixBinary(const std::string& filename, Eigen::Matrix<T, Eigen
     return true;
 }
 void printInfo(const int& idx, const int& step, std::string info);
-#endif// _RGSC_BASE_IO_H
+#endif// _MCS_BASE_IO_H
