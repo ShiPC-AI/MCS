@@ -71,6 +71,10 @@ you will get a "map_sam_pro.pcd" (***map***) and a "ground_sam_dist_3.pcd" (***v
 ```
 ./offline_map_process/create_map_cluster_centers
 ```
+or run the matlab script (we use this in our experiments)
+```
+k_means.m
+```
 you will get a "cnts_4_20_60_3.bin" (***map cluster centers***) in map folder. After this, all necessary map files are generated.
 ## 3. Online place recognition
 We provide the evaluation code (recall top 1) for MCS and MCS-BF. MCS (two-phase search) balances the runtime and accuracy, while MCS-BF (one-phase search) may showcase better accuracy.
